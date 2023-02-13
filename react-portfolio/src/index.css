@@ -24,9 +24,9 @@
 
 @keyframes slide {
   0% {
-    transform:translateX(-25%);
+    transform:translateX(-15%);
   }
   100% {
-    transform:translateX(25%);
+    transform:translateX(15%);
   }
 }

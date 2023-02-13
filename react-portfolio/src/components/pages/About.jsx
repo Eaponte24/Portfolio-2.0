@@ -53,14 +53,6 @@ export default function About() {
         thats thrown my way. That skill alone has helped me thrive throughout
         this boot camp and produce works that I'm very proud of seen above!
       </p>
-      <p style={styles.contact}>
-          Feel free to <strong>connect</strong> with me or contact me at any of the locations below!
-          <span id="connections">
-        <a href="https://www.linkedin.com/in/ricky-aponte-29b89050/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin fa-4x" style={styles.contactIcns}></i></a>
-        <a href="https://github.com/Eaponte24?tab=repositories" target="_blank" rel="noreferrer"><i class="fa-brands fa-square-github fa-4x" style={styles.contactIcns}></i></a>
-        <a href="mailto: rickyapontephotography@gmail.com" target="_blank" rel="noreferrer"><i class="fa-regular fa-envelope fa-4x" style={styles.contactIcns}></i></a>
-          </span>
-        </p>
     </div>
   );
 }

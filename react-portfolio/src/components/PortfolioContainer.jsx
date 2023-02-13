@@ -4,6 +4,7 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Header from './Header';
+import Footer from './Footer';
 import '../index.css'
 
 export default function PortfolioContainer() {
@@ -36,6 +37,9 @@ export default function PortfolioContainer() {
 			<div>
 				<main>{renderPage()}</main>
 			</div>
+      <div>
+        <Footer />
+      </div>
 		</div>
 	);
 }
