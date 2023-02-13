@@ -1,6 +1,75 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
+
+const styles = {
+	header: {
+	  fontFamily: "Bebas Neue",
+	  display: "flex",
+	  justifyContent: "space-between",
+	  alignItems: "center",
+	  padding: "0 20px",
+	  height: "80px",
+	  borderBottom: "1px solid #e0e0e0",
+	  color: "#000",
+	},
+  
+	description: {
+	  fontFamily: "Teko",
+	  color: "#000",
+	  textDecoration: "none",
+	  fontSize: "1.2rem",
+	  fontWeight: "bold",
+	},
+  
+  // center the form section and increase the width
+  sectionStyle: {
+	width: "10%",
+	margin: "auto",
+  },
+
+  // Form header
+  formHeader: {
+	fontFamily: "Bebas Neue",
+	color: "#000",
+	textDecoration: "none",
+	fontSize: "1.2rem",
+	  },
+
+  // error message 
+  errorMessage: {
+	color: "red",
+	fontFamily: "Bebas Neue",
+	textDecoration: "none",
+	fontSize: "1.2rem",
+	  },
+
+  // button style
+  buttonStyle: {
+	backgroundColor: "#000",
+	color: "#fff",
+	fontFamily: "Bebas Neue",
+	textDecoration: "none",
+	fontSize: "1.2rem",
+	border: "none",
+	padding: "10px 20px",
+	margin: "10px",
+	  },
+
+  // input style
+  inputStyle: {
+	backgroundColor: "#f5f5f5",
+	color: "#000",
+	fontFamily: "Bebas Neue",
+	textDecoration: "none",
+	fontSize: "1.2rem",
+	border: "none",
+	padding: "10px 20px",
+	margin: "10px",
+	  },
+  
+  };
+
 function Contact() {
 	const [formState, setFormState] = useState({
 		name: "",
@@ -46,16 +115,17 @@ function Contact() {
 	}
 
 	return (
-		<section>
-			<div className="center">
-				<h2 className="page-header">Contact Me</h2>
+		<section style={styles.sectionStyle}>
+			<div>
+				<h2 style={styles.header}>Contact Me</h2>
 			</div>
 			<div>
-				<form id="contact-form">
+				<form>
 					<div>
-						<label htmlFor="Name">Name:</label>
+						<label style={styles.formHeader}>Name:</label>
 						<br></br>
 						<input
+							style={styles.inputStyle}
 							type="text"
 							defaultValue={name}
 							onBlur={handleBlank}
@@ -63,9 +133,10 @@ function Contact() {
 						/>
 					</div>
 					<div>
-						<label htmlFor="email">Email address:</label>
+						<label style={styles.formHeader}>Email address:</label>
 						<br></br>
 						<input
+							style={styles.inputStyle}
 							type="email"
 							defaultValue={email}
 							name="email"
@@ -73,9 +144,10 @@ function Contact() {
 						/>
 					</div>
 					<div>
-						<label htmlFor="Message">Message:</label>
+						<label style={styles.formHeader}>Message:</label>
 						<br></br>
 						<textarea
+							style={styles.inputStyle}
 							name="Message"
 							defaultValue={message}
 							onBlur={handleBlank}
@@ -84,10 +156,10 @@ function Contact() {
 					</div>
 					{errorMessage && (
 						<div>
-							<p className="error-text">{errorMessage}</p>
+							<p style={styles.errorMessage}>{errorMessage}</p>
 						</div>
 					)}
-					<button type="submit">Submit</button>
+					<button style={styles.buttonStyle} type="submit">Submit</button>
 				</form>
 			</div>
 		</section>

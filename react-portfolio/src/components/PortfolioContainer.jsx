@@ -4,6 +4,7 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Header from './Header';
+import '../index.css'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -26,8 +27,11 @@ export default function PortfolioContainer() {
 
   return (
 		<div>
+      <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>  
 			<div>
-				<Header currentPage={currentPage} handlePageChange={handlePageChange} />
+				<Header currentPage={currentPage} handlePageChange={handlePageChange} /> 
 			</div>
 			<div>
 				<main>{renderPage()}</main>

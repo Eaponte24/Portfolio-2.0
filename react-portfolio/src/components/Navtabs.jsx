@@ -7,7 +7,6 @@ const styles = {
     alignItems: 'center',
     padding: '0 20px',
     height: '80px',
-    backgroundColor: '#f5f5f5',
   },
 
   navLink: {
@@ -30,9 +29,16 @@ const styles = {
     alignItems: 'center',
     padding: '0 20px',
     height: '80px',
-    backgroundColor: '#f5f5f5',
-    
+    color: '#000',
   },
+
+  link: {
+    color: '#000',
+    textDecoration: 'none',
+    fontSize: '1.2rem',
+    fontWeight: 'bold',
+  },
+
 };
 
 function NavTabs({ currentPage, handlePageChange }) {
@@ -40,36 +46,40 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul style={styles.nav}>
       <li style={styles.navItem}>
         <a
+          style={styles.link}
           href="#about"
           onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'navLink active' : 'navLink'}
+          className={currentPage === 'About' ? 'navItem active' : 'navItem'}
         >
           About
         </a>
       </li>
       <li style={styles.navItem}>
         <a
+          style={styles.link}
           href="#work"
           onClick={() => handlePageChange('Work')}
-          className={currentPage === 'Work' ? 'navLink active' : 'navLink'}
+          className={currentPage === 'Work' ? 'navItem active' : 'navItem'}
         >
           Work
         </a>
       </li>
       <li style={styles.navItem}>
         <a
+          style={styles.link}
           href="#resume"
           onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'navLink active' : 'navLink'}
+          className={currentPage === 'Resume' ? 'navItem active' : 'navItem'}
         >
           Resume
         </a>
       </li>
       <li style={styles.navItem}>
         <a
+          style={styles.link}
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'navLink active' : 'navLink'}
+          className={currentPage === 'Contact' ? 'navItem active' : 'navItem'}
         >
           Contact
         </a>

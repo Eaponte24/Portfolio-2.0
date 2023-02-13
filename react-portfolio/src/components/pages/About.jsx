@@ -1,18 +1,20 @@
 import React from "react";
 
 const styles = {
-    // want to style the about page
-    about: {
+    
+    header: {
+        fontFamily: 'Bebas Neue',
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
         padding: "0 20px",
         height: "80px",
-        backgroundColor: "#f5f5f5",
         borderBottom: "1px solid #e0e0e0",
+        color: "#000",
     },
 
     aboutConent: {
+      fontFamily: 'Teko',
         color: "#000",
         textDecoration: "none",
         fontSize: "1.2rem",
@@ -26,14 +28,20 @@ const styles = {
     contactIcns: {
         color: "#000000",
         padding: "15px",
-      }
+      },
+
+      // reduce size of section and center the content
+	sectionStyle: {
+		width: "80%",
+		margin: "auto",
+	},
 
 };
 
 export default function About() {
   return (
-    <div >
-      <h1 style={styles.about}>About Page</h1>
+    <div style={styles.sectionStyle}>
+      <h1 style={styles.header}>About Page</h1>
       <p style={styles.aboutConent}>
         CT born and raised, I've had a background with digital and print
         marketing as well as come with a wealth of sales experience. I'm

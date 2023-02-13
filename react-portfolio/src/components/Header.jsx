@@ -3,19 +3,20 @@ import NavTabs from "./Navtabs";
 
 const styles = {
 	header: {
+		fontFamily: 'Bebas Neue',
 		display: "flex",
 		justifyContent: "space-between",
 		alignItems: "center",
 		padding: "0 20px",
 		height: "80px",
-		backgroundColor: "#f5f5f5",
 		borderBottom: "1px solid #e0e0e0",
 	},
-
+	// center the h2 text
 	h2: {
+		fontFamily: 'Bebas Neue',
 		color: "#000",
 		textDecoration: "none",
-		fontSize: "1.2rem",
+		fontSize: "2rem",
 		fontWeight: "bold",
 	},
 
