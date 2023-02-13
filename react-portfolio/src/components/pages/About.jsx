@@ -20,7 +20,7 @@ const styles = {
         fontFamily: 'Teko',
         color: "#000",
         textDecoration: "none",
-        fontSize: "1.2rem",
+        fontSize: "1.8rem",
         fontWeight: "bold",
         backgroundColor: "#ffffff",
         boxShadow: "0 0 10px rgba(0,0,0,0.5)",

@@ -24,7 +24,7 @@ const styles = {
   
   // center the form section and increase the width
   sectionStyle: {
-	width: "10%",
+	width: "40%",
 	margin: "auto",
   },
 
@@ -54,6 +54,7 @@ const styles = {
 	border: "none",
 	padding: "10px 20px",
 	margin: "10px",
+	borderRadius: "5px",
 	  },
 
   // input style
@@ -66,6 +67,8 @@ const styles = {
 	border: "none",
 	padding: "10px 20px",
 	margin: "10px",
+	width: "100%",
+	borderRadius: "5px",
 	  },
   
   };
