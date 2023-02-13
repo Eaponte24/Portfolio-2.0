@@ -55,21 +55,24 @@ export default function Work() {
       boxShadow: "0 0 10px rgba(0,0,0,0.5)",
       padding: "10px",
       textAlign: "center",
+      borderBottomRightRadius: "10px",
+      borderBottomLeftRadius: "10px",
     },
 
   projectHeader: {
-      fontFamily: "Bebas Neue",
+      fontFamily: "Teko",
       textDecoration: "underline",
       fontSize: "2rem",
       fontWeight: "bold",
       textAlign: "center",
-      color: "#000",
-      
+      color: "#000",  
     },
 
   projectImage: {
       width: "100%",
       height: "auto",
+      borderTopLeftRadius: "10px",
+      borderTopRightRadius: "10px",
     },
     
 	sectionStyle: {

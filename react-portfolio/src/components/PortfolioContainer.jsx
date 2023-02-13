@@ -7,6 +7,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Welcome from './Welcome';
 import '../index.css'
+import '../index.js'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Welcome');
@@ -29,6 +30,8 @@ export default function PortfolioContainer() {
 
   return (
 		<div>
+      {/*create transition div*/}
+      <div class="transition transition-1 is-active"></div>
       <div class="bg"></div>
       <div class="bg bg2"></div>
       <div class="bg bg3"></div>  
@@ -45,7 +48,7 @@ export default function PortfolioContainer() {
 			<div>
        {/* only render page if not on Welcome */}
         {currentPage !== 'Welcome' ? (
-          renderPage()
+          renderPage() 
         ) : (
           <div></div>
         )}

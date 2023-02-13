@@ -47,6 +47,8 @@ const styles = {
     width: "300px",
     height: "300px",
     borderRadius: "50%",
+    border: "1px solid #000",
+    boxShadow: "0 0 10px rgba(0,0,0,0.5)",
   },
 };
 
@@ -66,6 +68,7 @@ export default function Welcome({currentPage, handlePageChange }) {
                   <a href="#about" onClick={() => handlePageChange("About")} 
                   className={currentPage === 'About' ? 'navItem active' : 'navItem'}>
                     <img
+                      className="img-fluid"
                       style={styles.img}
                       src={Portrait}
                       alt="Enrique Aponte"

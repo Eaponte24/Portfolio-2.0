@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from "react";
 
 const styles = {
   header: {
@@ -20,19 +19,18 @@ const styles = {
     fontSize: "1.2rem",
     fontWeight: "bold",
     backgroundColor: "#ffffff",
-        boxShadow: "0 0 10px rgba(0,0,0,0.5)",
-        padding: "10px",
-        textAlign: "center",
-        borderRadius: "10px",
+    boxShadow: "0 0 10px rgba(0,0,0,0.5)",
+    padding: "10px",
+    textAlign: "center",
+    borderRadius: "10px",
   },
 
-// reduce size of section and center the content
-sectionStyle: {
-  width: "70%",
-		margin: "auto",
+  // reduce size of section and center the content
+  sectionStyle: {
+    width: "70%",
+    margin: "auto",
     padding: "30px",
-},
-
+  },
 };
 
 export default function Resume() {

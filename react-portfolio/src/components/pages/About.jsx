@@ -1,4 +1,7 @@
 import React from "react";
+import '../../index.css';
+import '../../index.js';
+
 
 const styles = {
     
@@ -34,8 +37,19 @@ const styles = {
 
 };
 
+window.onload = () => {
+  const transtionEl = document.querySelector('.transition');
+
+
+   setTimeout(() => {
+       transtionEl.classList.remove('is-active');
+   }, 500);
+}
+
 export default function About() {
   return (
+    <>
+    <div class="transition is-active"></div>
     <div style={styles.sectionStyle}>
       <h1 style={styles.header}>About Page</h1>
       <p style={styles.aboutConent}>
@@ -50,5 +64,7 @@ export default function About() {
         this boot camp and produce works that I'm very proud of seen above!
       </p>
     </div>
+    </>
+    
   );
 }
