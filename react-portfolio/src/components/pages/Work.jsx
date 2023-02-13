@@ -33,7 +33,7 @@ export default function Work() {
   ];
 
   const styles = {
-    header: {
+  header: {
       fontFamily: "Bebas Neue",
       display: "flex",
       justifyContent: "space-between",
@@ -42,29 +42,44 @@ export default function Work() {
       height: "80px",
       borderBottom: "1px solid #e0e0e0",
       color: "#000",
+      
     },
 
-    description: {
+  description: {
       fontFamily: "Teko",
       color: "#000",
       textDecoration: "none",
       fontSize: "1.2rem",
       fontWeight: "bold",
+      backgroundColor: "#ffffff",
+      boxShadow: "0 0 10px rgba(0,0,0,0.5)",
+      padding: "10px",
+      textAlign: "center",
     },
 
-    projectHeader: {
+  projectHeader: {
       fontFamily: "Bebas Neue",
-      color: "#000",
-      textDecoration: "none",
-      fontSize: "1.5rem",
+      textDecoration: "underline",
+      fontSize: "2rem",
       fontWeight: "bold",
+      textAlign: "center",
+      color: "#000",
+      
+    },
+
+  projectImage: {
+      width: "100%",
+      height: "auto",
     },
     
 	sectionStyle: {
 		width: "70%",
-		margin: "auto",
+    margin: "auto",
     padding: "30px",
+    overflow: "auto",
+    
 	},
+
 
 	
   };
@@ -75,11 +90,11 @@ export default function Work() {
         <h1 style={styles.header}>Projects</h1>
       </div>
       {projects.map((project) => (
-        <card key={project.id}>
+        <card style={styles.card} key={project.id}>
           <h2 style={styles.projectHeader}>{project.name}</h2>
           <img
+            style={styles.projectImage}
             src={project.image}
-            class="d-block w-100"
             alt="..."
           />
           <p style={styles.description}>{project.description}</p>

@@ -14,23 +14,18 @@ const styles = {
     },
 
     aboutConent: {
-      fontFamily: 'Teko',
+        fontFamily: 'Teko',
         color: "#000",
         textDecoration: "none",
         fontSize: "1.2rem",
         fontWeight: "bold",
+        backgroundColor: "#ffffff",
+        boxShadow: "0 0 10px rgba(0,0,0,0.5)",
+        padding: "10px",
+        textAlign: "center",
+        borderRadius: "10px",     
     },
-
-    contact: {
-        fontSize: "1.2rem",
-      },
-
-    contactIcns: {
-        color: "#000000",
-        padding: "15px",
-      },
-
-      // reduce size of section and center the content
+     
 	sectionStyle: {
 		width: "70%",
 		margin: "auto",

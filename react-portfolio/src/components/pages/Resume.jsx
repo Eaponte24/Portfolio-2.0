@@ -19,6 +19,11 @@ const styles = {
     textDecoration: "none",
     fontSize: "1.2rem",
     fontWeight: "bold",
+    backgroundColor: "#ffffff",
+        boxShadow: "0 0 10px rgba(0,0,0,0.5)",
+        padding: "10px",
+        textAlign: "center",
+        borderRadius: "10px",
   },
 
 // reduce size of section and center the content

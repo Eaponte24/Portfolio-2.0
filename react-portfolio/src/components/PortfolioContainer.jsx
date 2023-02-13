@@ -13,9 +13,6 @@ export default function PortfolioContainer() {
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
-    if (currentPage === 'Welcome') {
-      return <Welcome />;
-    }
     if (currentPage === 'About') {
       return <About />;
     }
@@ -36,10 +33,22 @@ export default function PortfolioContainer() {
       <div class="bg bg2"></div>
       <div class="bg bg3"></div>  
 			<div>
-				<Header currentPage={currentPage} handlePageChange={handlePageChange} /> 
+        {/* render welcome screen if on welcome screen */}
+        {currentPage === 'Welcome' ? (
+          <Welcome currentPage={currentPage} handlePageChange={handlePageChange}  />
+        ) : (
+          <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+        )}
+        
+        
 			</div>
 			<div>
-				<main>{renderPage()}</main>
+       {/* only render page if not on Welcome */}
+        {currentPage !== 'Welcome' ? (
+          renderPage()
+        ) : (
+          <div></div>
+        )}
 			</div>
       <div>
         <Footer />
