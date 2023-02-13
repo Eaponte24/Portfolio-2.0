@@ -23,8 +23,9 @@ const styles = {
 
 // reduce size of section and center the content
 sectionStyle: {
-  width: "80%",
-  margin: "auto",
+  width: "70%",
+		margin: "auto",
+    padding: "30px",
 },
 
 };

@@ -60,11 +60,12 @@ export default function Work() {
       fontWeight: "bold",
     },
     
-	// reduce size of section and center the content
 	sectionStyle: {
-		width: "80%",
+		width: "70%",
 		margin: "auto",
+    padding: "30px",
 	},
+
 	
   };
 
@@ -77,7 +78,6 @@ export default function Work() {
         <card key={project.id}>
           <h2 style={styles.projectHeader}>{project.name}</h2>
           <img
-            style={styles.projectImage}
             src={project.image}
             class="d-block w-100"
             alt="..."
