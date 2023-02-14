@@ -33,7 +33,7 @@ export default function Work() {
   ];
 
   const styles = {
-  header: {
+    header: {
       fontFamily: "Bebas Neue",
       display: "flex",
       justifyContent: "space-between",
@@ -42,10 +42,9 @@ export default function Work() {
       height: "80px",
       borderBottom: "1px solid #e0e0e0",
       color: "#000",
-      
     },
 
-  description: {
+    description: {
       fontFamily: "Teko",
       color: "#000",
       textDecoration: "none",
@@ -54,37 +53,46 @@ export default function Work() {
       backgroundColor: "#ffffff",
       boxShadow: "0 0 10px rgba(0,0,0,0.5)",
       padding: "10px",
-      textAlign: "center",
       borderBottomRightRadius: "10px",
       borderBottomLeftRadius: "10px",
     },
 
-  projectHeader: {
+    projectHeader: {
       fontFamily: "Teko",
       textDecoration: "underline",
       fontSize: "2rem",
       fontWeight: "bold",
-      textAlign: "center",
-      color: "#000",  
+      color: "#000",
     },
 
-  projectImage: {
+    projectImage: {
       width: "100%",
       height: "auto",
       borderTopLeftRadius: "10px",
       borderTopRightRadius: "10px",
     },
-    
-	sectionStyle: {
-		width: "70%",
-    margin: "auto",
-    padding: "30px",
-    overflow: "auto",
-    
-	},
 
+    sectionStyle: {
+      width: "70%",
+      margin: "auto",
+      padding: "30px",
+      overflow: "auto",
+    },
 
-	
+    // make the contacticons sit next to the project header link
+    contactIcns: {
+      color: "#000000",
+      padding: "15px",
+    },
+
+    card: {
+      width: "100%",
+      height: "auto",
+      margin: "auto",
+      backgroundColor: "#ffffff",
+      boxShadow: "0 0 10px rgba(0,0,0,0.5)",
+      borderRadius: "10px",
+    },
   };
 
   return (
@@ -94,13 +102,19 @@ export default function Work() {
       </div>
       {projects.map((project) => (
         <card style={styles.card} key={project.id}>
-          <h2 style={styles.projectHeader}>{project.name}</h2>
-          <img
-            style={styles.projectImage}
-            src={project.image}
-            alt="..."
-          />
-          <p style={styles.description}>{project.description}</p>
+          <img style={styles.projectImage} src={project.image} alt="..." />
+          <p style={styles.description}>
+              <h2 
+            onClick={() => window.open(project.deployed)}
+            class="deployed"
+            style={styles.projectHeader}>{project.name} 
+              <i
+                onClick={() => window.open(project.github)}
+                class="fa-brands fa-square-github fa-1x"
+                style={styles.contactIcns}
+              ></i></h2>
+            {project.description}
+          </p>
         </card>
       ))}
     </section>

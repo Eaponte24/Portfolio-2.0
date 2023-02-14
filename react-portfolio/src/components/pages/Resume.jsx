@@ -79,14 +79,13 @@ export default function Resume() {
      <ul style={styles.noBullet}>
           {" "}
           <h5>Front-End Proficiencies</h5>
-          <li>HTML5</li>
-          <li>CSS3</li>
+          <li>HTML</li>
+          <li>CSS</li>
           <li>JavaScript</li>
           <li>jQuery</li>
           <li>Bootstrap</li>
           <li>React</li>
           <li>version control/Git</li>
-          <li>responsive design</li>
         </ul>
         <br></br>
 
@@ -95,6 +94,7 @@ export default function Resume() {
           <li>APIs</li>
           <li>NodeJS</li>
           <li>Express</li>
+          <li>MERN Stack</li>
           <li>Model View Controller (MVC)</li>
           <li>REST</li>
           <li>Progressive Web Applications (PWA)</li>

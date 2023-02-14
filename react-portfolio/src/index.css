@@ -64,5 +64,11 @@
 }
 
 
+.deployed:hover {
+  cursor: pointer;
+}
 
-
+.fa-brands:hover {
+  color: #fff;
+  cursor: pointer;
+}
