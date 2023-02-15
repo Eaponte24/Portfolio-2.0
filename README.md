@@ -1,27 +1,56 @@
 # Enrique Aponte || Personal Portfolio
 
+
 ## Description
 
-A simple and clean portfolio built with react to showcase my projects and resume for future employers. As well, there is a simple way to contact me via email for any questions or inquires. You are welcomed with the about page which decribes a bit about me and more skills. The app allows for an easy way to keep my current works updated with ease as well as update styling on any components.
+
+A simple and clean portfolio built to showcase my projects and resume for future employers. As well, there is a simple way to contact me via email for any questions or inquiries. You are welcomed with the about page which describes a bit about me and more skills. The app allows for an easy way to keep my current works updated with ease as well as update styling on any components.
+
+
 
 
 ## Usage
 
-You will be welcomed to the landing page, once you have clicked on my portrait you will be brought to the "About" page
 
-![Portfolio fullsize](assets/Photos/personalport1.PNG)
+You will be welcomed to the landing page, once you have clicked on my portrait you will be brought to the "About" page.
 
-![portfolio fullsize](assets/Photos/personalport2.PNG)
 
-![portfolio small](assets/Photos/personalport3.PNG)
+![Landing Page](./src/assets/screenshots/Portfolio-2.0(Welcome).PNG)
 
-![portfolio small](assets/Photos/personalport4.PNG)
+
+![About](./src/assets/screenshots/Portfolio-2.0(About).PNG)
+
+
+You can view my projects by clicking on the "Work" link in the navbar.
+
+
+![Work Page](./src/assets/screenshots/Portfolio-2.0(Projects).PNG)
+
+
+Then you can click on the "Resume" link and you will be brought to the page with proficiencies as well as a way to download my resume.
+
+
+![Resume Download](./src/assets/screenshots/Portfolio-2.0(Download).PNG)
+
+
+![Resume Download](./src/assets/screenshots/Portfolio-2.0(Resume).PNG)
+
+
+Lastly you can click on the "Contact" link and you will be able to contact me via email by filling out a farm
+
+
+![Contact](./src/assets/screenshots/Portfolio-2.0(Contact).PNG)
+
+
 
 
 ## Features
 
-The main feature of this project is to show future employers or clients my works I’ve made in the Uconn Bootcamp. The links in the top nav bar will bring you down to the correlating sections in the bottom of the page, in the future “resume” will contain my resume with updated works I’ve created. The about me section just states a little about me. When we move over to the Work section, it shows my 4 best projects and at default they are opaque but when you hover over them to click on them when a project is linked in the future they turn to 100% clarity. Lastly the contact me sections links all bring you to either calling my phone number directly, emailing me directly or a link straight to my github to see my current repos inside.
 
-Here is a link to the deployed site.
+At the footer of the portfolio you will see 3 icons, each one linking you to a different way to either view my Linkedin, Github or email me. You can easily download my resume if needed at the Resume link in the navbar as well as viewing a list of the technologies that I am proficient in. The projects page will bring you to my works with a link to their github repos as well as their deployed link so you will be able to test them yourself!
 
-https://eaponte24.github.io/Personal-Portfolio/
+
+Deployed Site Below
+
+
+https://eaponte24.github.io/Portfolio-2.0/
