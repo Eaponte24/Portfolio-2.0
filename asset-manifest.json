@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-2.0/static/css/main.ee6f67d5.css",
-    "main.js": "/Portfolio-2.0/static/js/main.2e745d9a.js",
+    "main.js": "/Portfolio-2.0/static/js/main.b3c796c4.js",
     "static/media/weather-app(1).PNG": "/Portfolio-2.0/static/media/weather-app(1).dd5029d82bbf443dde76.PNG",
     "static/media/Grims-Inventory.PNG": "/Portfolio-2.0/static/media/Grims-Inventory.57a4ce6a3d5d1182bbaf.PNG",
     "static/media/Covid-Tracker(1).PNG": "/Portfolio-2.0/static/media/Covid-Tracker(1).b8151bd793a9aa13653f.PNG",
@@ -9,10 +9,10 @@
     "static/media/Resume - Enrique Aponte.pdf": "/Portfolio-2.0/static/media/Resume - Enrique Aponte.51c55641ccf213d53a74.pdf",
     "index.html": "/Portfolio-2.0/index.html",
     "main.ee6f67d5.css.map": "/Portfolio-2.0/static/css/main.ee6f67d5.css.map",
-    "main.2e745d9a.js.map": "/Portfolio-2.0/static/js/main.2e745d9a.js.map"
+    "main.b3c796c4.js.map": "/Portfolio-2.0/static/js/main.b3c796c4.js.map"
   },
   "entrypoints": [
     "static/css/main.ee6f67d5.css",
-    "static/js/main.2e745d9a.js"
+    "static/js/main.b3c796c4.js"
   ]
 }
