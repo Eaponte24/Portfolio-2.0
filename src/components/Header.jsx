@@ -30,7 +30,7 @@ function Header(props) {
 	return (
 		<header style={styles.header}>
 			<div>
-				<a href="/" style={styles.h2}>Enrique Aponte</a>
+				<a href="/Portfolio-2.0" style={styles.h2}>Enrique Aponte</a>
 			</div>
 			<div>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
