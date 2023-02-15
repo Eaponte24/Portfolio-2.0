@@ -46,7 +46,7 @@ export default function About() {
     <>
       <div class="transition is-active"></div>
       <div style={styles.sectionStyle}>
-        <h1 style={styles.header}>About Page</h1>
+        <h1 style={styles.header}>About</h1>
         <p style={styles.aboutConent}>
           CT born and raised, I've had a background with digital and print
           marketing as well as come with a wealth of sales experience. I'm

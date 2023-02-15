@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Enrique Aponte || Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+A simple and clean portfolio built with react to showcase my projects and resume for future employers. As well, there is a simple way to contact me via email for any questions or inquires. You are welcomed with the about page which decribes a bit about me and more skills. The app allows for an easy way to keep my current works updated with ease as well as update styling on any components.
 
-In the project directory, you can run:
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You will be welcomed to the landing page, once you have clicked on my portrait you will be brought to the "About" page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Portfolio fullsize](assets/Photos/personalport1.PNG)
 
-### `npm test`
+![portfolio fullsize](assets/Photos/personalport2.PNG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![portfolio small](assets/Photos/personalport3.PNG)
 
-### `npm run build`
+![portfolio small](assets/Photos/personalport4.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The main feature of this project is to show future employers or clients my works I’ve made in the Uconn Bootcamp. The links in the top nav bar will bring you down to the correlating sections in the bottom of the page, in the future “resume” will contain my resume with updated works I’ve created. The about me section just states a little about me. When we move over to the Work section, it shows my 4 best projects and at default they are opaque but when you hover over them to click on them when a project is linked in the future they turn to 100% clarity. Lastly the contact me sections links all bring you to either calling my phone number directly, emailing me directly or a link straight to my github to see my current repos inside.
 
-### `npm run eject`
+Here is a link to the deployed site.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://eaponte24.github.io/Personal-Portfolio/
