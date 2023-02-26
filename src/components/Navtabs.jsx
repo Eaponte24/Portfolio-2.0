@@ -44,7 +44,7 @@ const styles = {
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul style={styles.nav}>
-      <li style={styles.navItem}>
+      <li className='navLinks' style={styles.navItem}>
         <a
           style={styles.link}
           href="#about"
@@ -54,7 +54,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li style={styles.navItem}>
+      <li className='navLinks' style={styles.navItem}>
         <a
           style={styles.link}
           href="#work"
@@ -64,7 +64,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Work
         </a>
       </li>
-      <li style={styles.navItem}>
+      <li  className='navLinks' style={styles.navItem}>
         <a
           style={styles.link}
           href="#resume"
@@ -74,7 +74,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
-      <li style={styles.navItem}>
+      <li  className='navLinks' style={styles.navItem}>
         <a
           style={styles.link}
           href="#contact"
