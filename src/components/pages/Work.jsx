@@ -1,7 +1,7 @@
 import React from "react";
 import grimsScreenshot from "../../assets/screenshots/Grims-Inventory.PNG";
 import covidScreenshot from "../../assets/screenshots/Covid-Tracker(1).PNG";
-import weatherScreenshot from "../../assets/screenshots/weather-app(1).PNG";
+import kingmeScreenshot from "../../assets/screenshots/kingme.JPG";
 
 export default function Work() {
   const projects = [
@@ -23,12 +23,12 @@ export default function Work() {
       deployed: "https://eaponte24.github.io/Covid-Tracker/",
     },
     {
-      name: "Weather Tracker",
+      name: "Kingme.GG",
       description:
-        "Ive created a simple and easy to use weather application to view a cities weather and 5 day forecast to the right, its a very quick and simplistic way to view the data with just one click of a button. The application is built using HTML, CSS, and Javascript. The application is deployed on Github Pages.",
-      image: weatherScreenshot,
-      github: "https://github.com/Eaponte24/weather-app",
-      deployed: "https://eaponte24.github.io/weather-app/",
+        "kingme.gg is an online checkers game built with Node.js, Express, React, MongoDB, GraphQL, and TailwindCSS. Multiplayer support is still a work-in-progress.",
+      image: kingmeScreenshot,
+      github: "https://github.com/jakubcic/kingme",
+      deployed: "https://kingme.gg/",
     },
   ];
 
