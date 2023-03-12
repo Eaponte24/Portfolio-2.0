@@ -70,9 +70,8 @@ export default function About() {
         </p>
         <p style={styles.aboutConent}>
           <strong>Skills:</strong> HTML, CSS, JavaScript, React, Node.js,
-          Express, MySQL, MongoDB, Mongoose, Bootstrap, Materialize, jQuery,
-          Git, GitHub, Heroku, Command Line, API's, JSON, AJAX, REST, Object
-          Oriented
+          Express, MySQL, MongoDB, Mongoose, GraphQl, Apollo, Bootstrap, Materialize, jQuery,
+          Git, GitHub, Heroku, Command Line, API's, JSON, AJAX, RESTful API's,
         </p>
         <p style={styles.aboutConent}>
           <strong>Education:</strong> Uconn Full Stack Coding Bootcamp
