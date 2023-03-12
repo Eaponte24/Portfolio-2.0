@@ -48,21 +48,10 @@ export default function About() {
       <div style={styles.sectionStyle}>
         <h1 style={styles.header}>About</h1>
         <p style={styles.aboutConent}>
-          CT born and raised, I've had a background with digital and print
-          marketing as well as come with a wealth of sales experience. I'm
-          currently enrolled in the{" "}
-          <strong>Uconn Full Stack Coding Bootcamp</strong> and looking to
-          change my career course towards a more coding centric route. One of
-          the amazing skills I've gained from professional photography and my
-          various sales positions is the ability to <strong>adapt</strong> to
-          any situation thats thrown my way. I'm a <strong>team player</strong>{" "}
-          and I'm
-          <strong> self-motivated</strong> to learn and grow. I'm looking to
-          leverage my skills and experience to help a company grow and succeed.
-          I have a passion for <strong>coding</strong> and I'm looking to
-          <strong> grow</strong> and <strong>learn</strong> as much as I can. I
-          am a <strong>problem solver</strong> and I'm looking to{" "}
-          <strong>collaborate</strong> with a team of like minded individuals.
+        As a <strong>customer-focused marketing professional</strong> with a passion for <strong>problem-solving</strong>, I've recently graduated from the <strong>Uconn Full Stack Coding Bootcamp</strong> to pursue my interest in coding. Through the program, I've honed my skills in languages such as <strong>HTML, CSS, JavaScript, React, Node.js, Express, MySQL, MongoDB,</strong> and <strong>GraphQl</strong>, and have completed projects such as <strong>GRIMS app, Kingme.GG,</strong> and a <strong>Covid tracker app</strong>.
+Prior to starting the bootcamp, I worked in <strong>digital and print marketing and sales roles</strong>, where I was responsible for maintaining a high level of customer satisfaction and building strong relationships with existing customers. I achieved a satisfaction rating of <strong>95% or higher each month</strong> and increased our customer base by <strong>20%</strong> through creative strategies. In addition, I've honed my soft skills through work on cross-functional teams and in high-pressure environments, where I've demonstrated <strong>adaptability, teamwork,</strong> and an ability to remain calm under pressure.
+
+Overall, I'm excited to bring my unique perspective and growing technical skills to a company where I can collaborate with like-minded individuals to tackle complex challenges and drive results.
         </p>
         <p style={styles.aboutConent}>
           <strong>Experience:</strong> Digital Marketing, Print Marketing,
