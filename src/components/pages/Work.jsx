@@ -14,6 +14,14 @@ export default function Work() {
       deployed: "https://grims-inventory.herokuapp.com/login",
     },
     {
+      name: "Kingme.GG",
+      description:
+        "kingme.gg is an online checkers game built with Node.js, Express, React, MongoDB, GraphQL, and TailwindCSS. Multiplayer support is still a work-in-progress.",
+      image: kingmeScreenshot,
+      github: "https://github.com/jakubcic/kingme",
+      deployed: "https://kingme.gg/",
+    },
+    {
       name: "Covid Tracker",
       description:
         "Covid Tracker uses two third party APIs to search for data based on a selected Country. The Reddit API will pull up to 15 subreddits regarding Covid related articles for that Country. The COVID19 API will pull current COVID Statistics for that country. The application is built using HTML, CSS, Bootstrap and Javascript. The application is deployed on Github Pages.",
@@ -22,14 +30,7 @@ export default function Work() {
       github: "https://github.com/Eaponte24/Covid-Tracker",
       deployed: "https://eaponte24.github.io/Covid-Tracker/",
     },
-    {
-      name: "Kingme.GG",
-      description:
-        "kingme.gg is an online checkers game built with Node.js, Express, React, MongoDB, GraphQL, and TailwindCSS. Multiplayer support is still a work-in-progress.",
-      image: kingmeScreenshot,
-      github: "https://github.com/jakubcic/kingme",
-      deployed: "https://kingme.gg/",
-    },
+   
   ];
 
   const styles = {
