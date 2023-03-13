@@ -1,9 +1,14 @@
-import React from "react";
 import grimsScreenshot from "../../assets/screenshots/Grims-Inventory.PNG";
 import covidScreenshot from "../../assets/screenshots/Covid-Tracker(1).PNG";
 import kingmeScreenshot from "../../assets/screenshots/kingme.JPG";
+import React, { useState } from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Work() {
+
+  const [currentSlide, setCurrentSlide] = useState(0);
+
   const projects = [
     {
       name: "G.R.I.M.S",
@@ -30,94 +35,164 @@ export default function Work() {
       github: "https://github.com/Eaponte24/Covid-Tracker",
       deployed: "https://eaponte24.github.io/Covid-Tracker/",
     },
-   
   ];
 
   const styles = {
-    header: {
-      fontFamily: "Bebas Neue",
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
-      padding: "0 20px",
-      height: "80px",
-      borderBottom: "1px solid #e0e0e0",
-      color: "#000",
-    },
-
-    description: {
-      fontFamily: "Teko",
-      color: "#000",
-      textDecoration: "none",
-      fontSize: "1.2rem",
-      fontWeight: "bold",
-      backgroundColor: "#ffffff",
-      boxShadow: "0 0 10px rgba(0,0,0,0.5)",
-      padding: "10px",
-      borderBottomRightRadius: "10px",
-      borderBottomLeftRadius: "10px",
-    },
-
-    projectHeader: {
-      fontFamily: "Teko",
-      textDecoration: "underline",
-      fontSize: "2rem",
-      fontWeight: "bold",
-      color: "#000",
-    },
-
-    projectImage: {
-      width: "100%",
+    carouselContainer: {
+      maxWidth: "1000px",
       height: "auto",
-      borderTopLeftRadius: "10px",
-      borderTopRightRadius: "10px",
-    },
-
-    sectionStyle: {
-      width: "70%",
       margin: "auto",
-      padding: "30px",
-      overflow: "auto",
+      fontFamily: "Teko",
+      padding: "25px",
+      marginTop: "70px",
+      marginBottom: "70px",
+      boxShadow: "0 0 10px 0 rgba(0, 0, 0, 0.5)",
+      backgroundColor: "#17706E",
+      border: "2px solid #000000",
     },
-
-    // make the contacticons sit next to the project header link
-    contactIcns: {
+    legend: {
+      fontSize: "1.4rem",
+      fontWeight: 700,
+      marginTop: "10px",
       color: "#000000",
-      padding: "15px",
+      backgroundColor: "#FB7813",
+      border: "2px solid #000000",
+    },
+    projectLinks: {
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      marginTop: "10px",
+    },
+    linkText: {
+      marginLeft: "10px",
+      fontWeight: 900,
+      color: "#000000",
+      fontSize: "3rem",
+      marginBottom: "40px",
+    },
+    icon: {
+      color: "#000000",
+      fontSize: "3rem",
+      padding: "10px",
+      marginBottom: "40px",
+      backgroundColor: "#FB7813",
+      border: "2px solid #000000",
+      borderRadius: "50%",
     },
 
-    card: {
-      width: "100%",
-      height: "auto",
-      margin: "auto",
-      backgroundColor: "#ffffff",
-      boxShadow: "0 0 10px rgba(0,0,0,0.5)",
-      borderRadius: "10px",
+    img: {
+      border: "2px solid #000000",
     },
   };
 
   return (
-    <section style={styles.sectionStyle}>
-      <div>
-        <h1 style={styles.header}>Projects</h1>
-      </div>
-      {projects.map((project) => (
-        <card style={styles.card} key={project.id}>
-          <img style={styles.projectImage} src={project.image} alt="..." />
-          <p style={styles.description}>
-              <h2 
-            onClick={() => window.open(project.deployed)}
-            class="deployed"
-            style={styles.projectHeader}>{project.name} 
-              <i
-                onClick={() => window.open(project.github)}
-                class="fa-brands fa-square-github fa-1x"
-                style={styles.contactIcns}
-              ></i></h2>
-            {project.description}
-          </p>
-        </card>
-      ))}
-    </section>
+    <div style={styles.carouselContainer}>
+      <Carousel
+        showThumbs={false}
+        autoPlay={true}
+        interval={3000}
+        onChange={(index) => setCurrentSlide(index)}
+      >
+        {projects.map((project) => (
+          <div key={project.name}>
+            <img src={project.image} alt={project.name} style={styles.img} />
+            <p style={styles.legend}>{project.description}</p>
+            <div style={styles.projectLinks}>
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github-square" style={styles.icon}></i>
+              </a>
+              <a
+                href={project.deployed}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={styles.linkText}
+              >
+                {project.name}
+              </a>
+            </div>
+          </div>
+        ))}
+      </Carousel>
+    </div>
   );
 }
+
+//   const styles = {
+//     gridContainer: {
+//       display: "grid",
+//       gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+//       gap: "20px",
+//       padding: "20px",
+//       backgroundColor: "#FB7813",
+//     },
+
+//     description: {
+//       fontFamily: "Teko",
+//       color: "#000",
+//       textDecoration: "none",
+//       fontSize: "1.2rem",
+//       fontWeight: "bold",
+//       backgroundColor: "#ffffff",
+//       padding: "10px",
+//     },
+
+//     projectHeader: {
+//       fontFamily: "Teko",
+//       textDecoration: "underline",
+//       fontSize: "2rem",
+//       fontWeight: "bold",
+//       color: "#000",
+//     },
+
+//     projectImage: {
+//       width: "100%",
+//       height: "auto",
+//     },
+
+//     sectionStyle: {
+//       width: "70%",
+//       margin: "auto",
+//       padding: "30px",
+//       marginBottom: "50px",
+//     },
+
+//     // make the contacticons sit next to the project header link
+//     contactIcns: {
+//       color: "#000000",
+//       padding: "15px",
+//     },
+
+//     card: {
+//       width: "80%",
+//       height: "auto",
+//       margin: "auto",
+//     },
+//   };
+
+//   return (
+//     <section style={styles.gridContainer}>
+//       {projects.map((project) => (
+//         <card style={styles.card} key={project.id}>
+//           <img style={styles.projectImage} src={project.image} alt="..." />
+//           <p style={styles.description}>
+//               <h2
+//             onClick={() => window.open(project.deployed)}
+//             class="deployed"
+//             style={styles.projectHeader}>{project.name}
+//               <i
+//                 onClick={() => window.open(project.github)}
+//                 class="fa-brands fa-square-github fa-1x"
+//                 style={styles.contactIcns}
+//               ></i></h2>
+//             {project.description}
+//           </p>
+//         </card>
+//       ))}
+//     </section>
+//   );
+//

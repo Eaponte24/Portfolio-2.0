@@ -4,7 +4,6 @@ const styles = {
     contactIcns: {
         color: "#000000",
         padding: "15px",
-        opacity: "0.8",
       },
     
       // footer container to bottom of page
@@ -13,15 +12,15 @@ const styles = {
         justifyContent: "center",
         alignItems: "center",
         padding: "0 20px",
-        height: "40px",
-        position: "fixed",
+        height: "100%",
         left: "0",
         bottom: "0",
         width: "100%",
         color: "black",
         textAlign: "center",
         gap: "40px",
-        backgroundColor: "#e0e0e0",
+        backgroundColor: "#F7F7EE",
+        borderTop: "2px solid #000",
         },
     
 };

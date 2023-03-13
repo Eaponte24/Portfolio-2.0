@@ -35,7 +35,7 @@ const styles = {
   link: {
     color: '#000',
     textDecoration: 'none',
-    fontSize: '1.2rem',
+    fontSize: '2rem',
     fontWeight: 'bold',
   },
 
@@ -72,16 +72,6 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Resume' ? 'navItem active' : 'navItem'}
         >
           Resume
-        </a>
-      </li>
-      <li  className='navLinks' style={styles.navItem}>
-        <a
-          style={styles.link}
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'navItem active' : 'navItem'}
-        >
-          Contact
         </a>
       </li>
     </ul>

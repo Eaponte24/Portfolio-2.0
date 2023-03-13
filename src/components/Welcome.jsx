@@ -9,7 +9,7 @@ const styles = {
     alignItems: "center",
     padding: "0 20px",
     height: "100vh",
-    backgroundColor: "#e0e0e0",
+    backgroundColor: "#F7F7EE",
   },
   // text and image container to center of page
   mainContent: {
@@ -29,7 +29,7 @@ const styles = {
 
   h1: {
     fontFamily: "Bebas Neue",
-    color: "#000",
+    color: "#FB7813",
     textDecoration: "none",
     fontSize: "2rem",
     fontWeight: "bold",
@@ -37,7 +37,7 @@ const styles = {
 
   p: {
     fontFamily: "Teko",
-    color: "#000",
+    color: "#17706E",
     textDecoration: "none",
     fontSize: "1.2rem",
     fontWeight: "bold",

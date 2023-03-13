@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Work from './pages/Work';
 import About from './pages/About';
 import Resume from './pages/Resume';
-import Contact from './pages/Contact';
 import Header from './Header';
 import Footer from './Footer';
 import Welcome from './Welcome';
@@ -12,6 +11,15 @@ import '../index.js'
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Welcome');
 
+  const styles = {
+    background: {
+      backgroundColor: "#B6EB7A",
+      height: "100%",
+      width: "100%",
+      margin: 0,
+      padding: 0,
+    },
+  };
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (currentPage === 'About') {
@@ -23,18 +31,12 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    return <Contact />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-		<div>
-      {/*create transition div*/}
-      <div class="transition transition-1 is-active"></div>
-      <div class="bg"></div>
-      <div class="bg bg2"></div>
-      <div class="bg bg3"></div>  
+		<div style={styles.background}>
 			<div>
         {/* render welcome screen if on welcome screen */}
         {currentPage === 'Welcome' ? (
@@ -42,8 +44,6 @@ export default function PortfolioContainer() {
         ) : (
           <Header currentPage={currentPage} handlePageChange={handlePageChange} />
         )}
-        
-        
 			</div>
 			<div>
        {/* only render page if not on Welcome */}
