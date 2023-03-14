@@ -13,13 +13,12 @@
     - [About Page](#about-page)
     - [Work Page](#work-page)
     - [Download Resume](#download-resume)
-    - [Contact Page](#contact-page)
 - [Credits](#credits)
 - [License](#license)
 
 
 ## Description
-A simple and clean portfolio built to showcase my projects and resume for future employers. As well, there is a simple way to contact me via email for any questions or inquiries. You are welcomed with the about page which describes a bit about me and more skills. The app allows for an easy way to keep my current works updated with ease as well as update styling on any components.
+A simple and clean portfolio built to showcase my projects and resume for future employers. As well, there is a simple way to contact or connect with me with easy to click icons at the botton of the app. You are welcomed with the about page which describes a bit about me and more skills. The app allows for an easy way to keep my current works updated with ease as well as update styling on any components.
 
 
 This application is built on **React**. My portfolio is deployed on Heroku and can be accessed [here](https://eaponte24.github.io/Portfolio-2.0/).
@@ -34,7 +33,7 @@ Once you access the portfolio link you will be prompted with a landing page with
 <br>
 
 
-![Landing Page](./src/assets/screenshots/Portfolio-2.0(Welcome).PNG)
+![Landing Page](./src/assets/screenshots/newPortf.JPG)
 
 
 ### About Page
@@ -42,7 +41,7 @@ Once you have clicked on the portrait in the landing page the first page you wil
 <br>
 
 
-![About Page](./src/assets/screenshots/Portfolio-2.0(About).PNG)
+![About Page](./src/assets/screenshots/newPortfAbout.JPG)
 
 
 
@@ -52,7 +51,7 @@ The next link would be the "Work Page" link which will direct you to my top 3 re
 <br>
 
 
-![Work Page](./src/assets/screenshots/Portfolio-2.0(Projects).PNG)
+![Work Page](./src/assets/screenshots/newPortfWork.JPG)
 
 
 
@@ -62,16 +61,8 @@ When you view my "Resume Page" you will not only be able to see a list of skills
 <br>
 
 
-![Resume Download](./src/assets/screenshots/Portfolio-2.0(Download).PNG)
-![Resume Download](./src/assets/screenshots/Portfolio-2.0(Resume).PNG)
-
-
-### Contact Page
-Lastly, the contact page is a quick and easy way to contact me via email. If you don't fill out a field the form will alert you that you are missing a field. When you submit a message it will be directed to my personal email.
-<br>
-
-
-![Contact](./src/assets/screenshots/Portfolio-2.0(Contact).PNG)
+![Resume Download](./src/assets/screenshots/newPortfDLRes.JPG)
+![Resume Download](./src/assets/screenshots/newPortfResume.JPG)
 
 
 ## Credits
