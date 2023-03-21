@@ -77,8 +77,6 @@ export default function Work() {
       padding: "10px",
       marginBottom: "40px",
       backgroundColor: "#FB7813",
-      border: "2px solid #000000",
-      borderRadius: "50%",
     },
 
     img: {
@@ -97,7 +95,7 @@ export default function Work() {
         {projects.map((project) => (
           <div key={project.name}>
             <img src={project.image} alt={project.name} style={styles.img} />
-            <p style={styles.legend}>{project.description}</p>
+            <p style={styles.legend}>{project.description}
             <div style={styles.projectLinks}>
               <a
                 href={project.github}
@@ -115,6 +113,7 @@ export default function Work() {
                 {project.name}
               </a>
             </div>
+            </p>
           </div>
         ))}
       </Carousel>
