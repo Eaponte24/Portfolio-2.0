@@ -51,9 +51,10 @@ export default function Work() {
       border: "2px solid #000000",
     },
     legend: {
-      fontSize: "1.4rem",
+      fontSize: "1.6rem",
       fontWeight: 700,
       marginTop: "10px",
+      padding: "10px",
       color: "#000000",
       backgroundColor: "#FB7813",
       border: "2px solid #000000",
@@ -62,20 +63,18 @@ export default function Work() {
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      marginTop: "10px",
+      padding: "10px",
     },
     linkText: {
       marginLeft: "10px",
       fontWeight: 900,
       color: "#000000",
       fontSize: "3rem",
-      marginBottom: "40px",
     },
     icon: {
       color: "#000000",
       fontSize: "3rem",
       padding: "10px",
-      marginBottom: "40px",
       backgroundColor: "#FB7813",
     },
 
