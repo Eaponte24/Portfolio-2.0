@@ -39,7 +39,7 @@ export default function Work() {
 
   const styles = {
     carouselContainer: {
-      maxWidth: "1000px",
+      maxWidth: "1500px",
       height: "auto",
       margin: "auto",
       fontFamily: "Teko",
@@ -88,8 +88,9 @@ export default function Work() {
       <Carousel
         showThumbs={false}
         autoPlay={true}
-        interval={3000}
+        interval={2000}
         onChange={(index) => setCurrentSlide(index)}
+        loop={true}
       >
         {projects.map((project) => (
           <div key={project.name}>
