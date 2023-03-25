@@ -46,8 +46,7 @@ Prior to starting the bootcamp, I worked in <strong>digital and print marketing 
 Overall, I'm excited to bring my unique perspective and growing technical skills to a company where I can collaborate with like-minded individuals to tackle complex challenges and drive results.
         </p>
         <p style={styles.aboutConent2}>
-          <strong>Experience:</strong> Digital Marketing, Print Marketing,
-          Sales, Photography, Customer Service, Social Media, Graphic Design
+          <strong>Experience:</strong> Digital Marketing, Sales, Photography, Customer Service, Social Media, Graphic Design
         
         <br></br>
 
