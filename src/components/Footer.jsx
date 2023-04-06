@@ -27,8 +27,8 @@ const styles = {
 
 function Footer() {
 	return (
-		<span style={styles.connections}>
-        <a href="https://www.linkedin.com/in/ricky-aponte-29b89050/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin fa-2x" style={styles.contactIcns}></i></a>
+		<span  style={styles.connections}>
+        <a href="https://www.linkedin.com/in/ricky-aponte-29b89050/" target="_blank" rel="noreferrer"><i  class="fa-brands fa-linkedin fa-2x" style={styles.contactIcns}></i></a>
         <a href="https://github.com/Eaponte24" target="_blank" rel="noreferrer"><i class="fa-brands fa-square-github fa-2x" style={styles.contactIcns}></i></a>
         <a href="mailto: rickyapontephotography@gmail.com" target="_blank" rel="noreferrer"><i class="fa-regular fa-envelope fa-2x" style={styles.contactIcns}></i></a>
           </span>
